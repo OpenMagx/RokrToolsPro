@@ -1,0 +1,158 @@
+[info]
+info = lng file for rokrtoolpro, translated by Devilsking
+
+[LNG]
+refreshWhenTabChg =  Auto refresh tab
+cKeyToKill = C key kills process
+shortMKeyToOpen = Invert music key function
+procFilter = Enable process filter
+showNativeIcon = Show QT icons
+showJavaIcon = Show java icons
+showJavaName = Show java names
+sendReturnToIdle = Run multi-java
+showMgxBigIcon = Big Mgx icons
+showMpkgBigIcon = Big Java icons
+clearBufEveryMultModeInCut = Clear cache before cut
+clearBufEveryMultModeInCopy = Clear cache before copy
+showHideObj = Show hidden files
+FT_CHOOSE_LNG = Select language
+markItem = Mark item
+FT_CHOOSE_REGTYPE = Choose registration type
+FT_INPUT_REG_CODE = Enter code
+FT_CONFIRM_REG = Register
+FT_2ND_MKEY_TYPE = Secondary musc key function
+FT_CHOOSE_2ND_MKEY_TYPE = Choose 2nd musickey type
+FT_DEFAULT = Default
+FT_CUSTOMER = Custom
+
+FT_SELECT = OK
+FT_CANCEL = Cancel
+Minimized All Apps = Minimize all apps
+Menu = Menu
+messaging = Message
+Java Machine = Java 
+
+FT_QUITING_PROC = Exit process
+
+FT_BACKUP = Backup
+FT_MMCA1 = Memory card
+FT_PHONE = Phone memory
+FT_PROPS = Properties
+FT_RENAME = Rename
+FT_DELETE = Delete
+FT_REFRESH = Refresh
+FT_ABOUT = Setting/About
+FT_QUIT = Exit
+FT_MOVE = Move
+FT_ROOT = Root
+FT_CUT = Cut
+FT_COPY = Copy
+FT_PASTE = Paste
+FT_CLEAR = Clear clipboard
+FT_SELECT_ALL = Select all
+FT_SELECT_NONE = Clear all
+FT_CREATE = Create file
+FT_ADV = Advanced
+FT_TURN_TO = Go to
+FT_SELMULTI = Select multiple
+FT_SAVE = Save mgx
+FT_ADD = Add
+FT_PACK = Compress file
+FT_ADD_APP = Add app
+FT_SET_PROFILE = Select connection
+FT_OPENWITH =  Open with
+FT_SEND_BY_BT = Send via bluetooth
+FT_CONFIRM_TO_SEND = Do you want to send?
+
+FT_CREATE_MENU = Create folder
+FT_DELETE_MENU = Delete folder
+FT_ADD_TO_MENU = Move to folder
+FT_MOVE_TO_MAIN = Move back to main
+FT_RENAME_MENU = Rename folder
+
+FT_CPU_LOCK = CPU speed
+FT_CHOOSE_LOCK_TYPE = Select CPU speed
+FT_CLOSE_OC = Disable CPU clock
+
+FT_SHOW_WIN = Only window processes
+FT_SHOW_ALL = All processes
+FT_ADD_PROC_FILTER = Add to filter
+FT_RESET_FILTER = Reset filter
+FT_PROC_INFO = Process information
+FT_SYSTEM_STATE = System status
+FT_KILL = Kill process
+
+FT_QUIT_PROC = Quit process
+FT_SHOW = View
+FT_APPSET = Settings
+POP_KILL = Kill process
+FT_CONFIRM_KILL = Do you want to kill process?
+FT_CONFIRM_DELETE = Do you want to delete?
+FT_CONFIRM_BACKUP = Do you want to backup?
+FT_CONFIRM_SAVE = Do you want to save
+FT_CONFIRM_MOVE_TO_MAIN_MENU = Delete app from folder and move to mainmenu?
+FT_FORCE_REFRESH = Force refresh
+FT_FORCE_REFRESH_INFO = Continue?
+FT_SAVENAME = File name:
+FT_SAVEPATH = Path:
+FT_REFRESHING = Refresh...
+FT_CONFIRM_QUIT = Exit program?
+
+FT_ADD_FILTER = Add to filter list
+SURE_TO_ADD = Add file?
+SURE_TO_RESET_FILTER = Do you want to reset filter list?
+
+FT_CUR_NAME = Current name:
+
+FT_ERR0R = Error
+FT_INVALID = Invalid name
+
+POP_PACK = Compressed file
+POP_OPERATION_OK = Done!
+POP_OPERATION_ERROR = Error
+
+PROP_NAME = Name:
+PROP_PATH = Path:
+PROP_TYPE = Types
+PROP_SIZE = Size:
+PROP_VERSION = Version:
+PROP_AUTHOR = Author:
+PROP_COMMENT = Note:
+PROP_FOLDER = Folder:
+PROP_CREATE_TIME = Time Created:
+PROP_MOD_TIME = Time Modified:
+PROP_PERM = Permission:
+PROP_FILE = File:
+PROP_SYMLINK = Link:
+
+POP_OK_TITLE = OK
+POP_OK_TEXT = Done!
+
+FT_CONFIRM_MOVE = Do you want to move?
+POP_PLEASE_WAIT = Please wait...
+
+FT_CONFIRM_COPY = Do you want to copy: 
+
+FT_PLEASCHOOSE = Please select
+FT_CREATE_FILE = New file
+FT_CREATE_DIR = New folder
+FT_INPUT_NAME = Input file name
+POP_FILE_EXISTS = File exists!
+FT_CANNOT_CREAT = Cannot create file/folder
+FT_MANY_FILES_SLOW = Speed will be slow because of many files
+FT_SEARCH = Search
+FT_MANAGER = Manage
+FT_OPENWITH_PROP = Open with
+FT_OPENWITH_INFO = Open this file with this app?
+
+POP_DONATE = Limited function
+POP_THIS_FUNCTION_NEED_DONATE = Donate to use!
+
+POP_SET_PERMISSION = Set permission
+FT_SET_TYPE = Set type
+FT_PER_EZX = Ezx
+FT_PER_ROOT = ROOT
+FT_SIMPLE = Simple
+FT_ULTIMATE = Ultimate
+FT_REGTYPE = Register Type
+

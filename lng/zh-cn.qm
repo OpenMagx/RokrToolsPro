@@ -1,0 +1,183 @@
+[info]
+info = lng file for rokrtoolpro , will use qt qm soon
+
+[LNG]
+refreshWhenTabChg =  切换TAB时自动刷新
+cKeyToKill = 使用快捷键
+shortMKeyToOpen = 反转短长按功能
+procFilter = 启用进程过滤
+showNativeIcon = 显示QT程序图标
+showJavaIcon = 显示Java图标
+showJavaName = 显示Java名称
+sendReturnToIdle = 精确切换Java
+showMgxBigIcon = Mgx大图标模式
+showMpkgBigIcon = Mpkg大图标模式
+clearBufEveryMultModeInCut = 每次多选剪切前清空缓存
+clearBufEveryMultModeInCopy = 每次多选复制前清空缓存
+showHideObj = 显示隐藏文件
+FT_CHOOSE_LNG = 选择语言
+markItem = 记忆当前进程光标
+FT_CHOOSE_REGTYPE = 选择注册方式
+FT_INPUT_REG_CODE = 输入注册码
+FT_CONFIRM_REG = 注册
+FT_2ND_MKEY_TYPE = 音乐键二键
+FT_CHOOSE_2ND_MKEY_TYPE = 选择第二键功能
+FT_DEFAULT = 默认
+FT_CUSTOMER = 自定义
+timeHeader = 标题显示时间
+runJavaInMult = 单个java多开
+hideAfterRunApp = 运行程序后隐藏RokrToolsPro
+showNativeMgxInfo = 显示QT类型mgx信息
+showMimeType = 显示文件类型图标
+showMultiWindow = 使用双窗口
+
+
+FT_SELECT = 选择
+FT_CANCEL = 取消
+Minimized All Apps = 最小化所有程序
+Menu = 菜单
+messaging = 信息
+Java Machine = Java Machine
+
+FT_QUITING_PROC = 正在退出进程
+
+FT_BACKUP = 备份/提取
+FT_MMCA1 = SD卡
+FT_PHONE = 手机内存
+FT_PROPS = 属性
+FT_RENAME = 重命名
+FT_DELETE = 删除
+FT_REFRESH = 刷新
+FT_ABOUT = 设置/关于
+FT_QUIT = 退出
+FT_MOVE = 移动
+FT_ROOT = 根目录
+FT_CUT = 剪切
+FT_COPY = 复制
+FT_PASTE = 粘贴
+FT_CLEAR = 清空剪贴板
+FT_SELECT_ALL = 全选
+FT_SELECT_NONE = 全不选
+FT_CREATE = 新建
+FT_ADV = 高级
+FT_TURN_TO = 转到
+FT_SELMULTI = 多选
+FT_SAVE = 保存mgx
+FT_ADD = 添加
+FT_PACK = 压缩
+FT_ADD_APP = 添加快捷程序
+FT_SET_PROFILE = 设置连接
+FT_OPENWITH =  打开方式
+FT_SEND_BY_BT = 发送到蓝牙
+FT_CONFIRM_TO_SEND = 是否发送下列文件？
+FT_OPEN_BOOKMARK = 打开书签
+FT_EDIT_BOOKMARK = 编辑书签
+FT_ADD_BOOKMARK = 添加书签   
+FT_INPUT_BOOKMARK_NAME = 输入书签名
+FT_NO_BOOKMARK = 当前无书签
+FT_BOOKMARK = 书签
+FT_RUN_JAVA_INFO = 当前java程序已经运行，是否再次开启一个？
+FT_SEARCH_TEXT_FILE = 搜索文本文件内容
+
+FT_CREATE_MENU = 创建分类
+FT_DELETE_MENU = 删除分类
+FT_ADD_TO_MENU = 添加到分类
+FT_MOVE_TO_MAIN = 从分类移除
+FT_RENAME_MENU = 重命名分类
+FT_FT_ORDER = 排序
+FT_ORDER = 排序
+FT_INSERT = 插入
+
+FT_CPU_LOCK = 智能锁频
+FT_CHOOSE_LOCK_TYPE = 选择锁频模式
+FT_CLOSE_OC = 关闭锁频
+
+FT_SHOW_WIN = 显示窗口进程
+FT_SHOW_ALL = 显示所有进程
+FT_ADD_PROC_FILTER = 添加到过滤列表
+FT_RESET_FILTER = 复位过滤列表
+FT_PROC_INFO = 进程信息
+FT_SYSTEM_STATE = 系统概况
+FT_KILL = 杀死进程
+FT_REBOOT = 重启
+FT_POWEROFF = 关机
+FT_CONFIRM_REBOOT = 是否立即重启？
+FT_CONFIRM_POWEROFF = 是否立即关机？
+FT_IDLE_SWITCH_JAVA = 精确切换Java
+FT_SWITCH_APP = 切换程序
+
+FT_QUIT_PROC = 退出进程
+FT_SHOW = 显示
+FT_APPSET = 设置/关于
+POP_KILL = 杀死进程
+FT_CONFIRM_KILL = 是否确认杀死进程？
+FT_CONFIRM_DELETE = 是否确认删除？
+FT_CONFIRM_BACKUP = 是否备份下列文件？
+FT_CONFIRM_SAVE = 是否确认提取下列文件？
+FT_CONFIRM_MOVE_TO_MAIN_MENU = 是否将当前程序从分类中移除，移除的程序将返回未分类的状态.
+FT_FORCE_REFRESH = 强制刷新
+FT_FORCE_REFRESH_INFO = 强制刷新将会复位mgx程序列表，你所保存mgx分类信息将会同时丢失，是否继续？
+FT_SAVENAME = 文件名
+FT_SAVEPATH = 路径
+FT_REFRESHING = 刷新中...
+FT_CONFIRM_QUIT = 是否退出程序？
+FT_NO_FILTER = 当前无过滤列表
+
+FT_ADD_FILTER = 添加过滤
+SURE_TO_ADD = 是否添加：
+SURE_TO_RESET_FILTER = 是否确认复位过滤列表？
+
+FT_CUR_NAME = 当前文件名：
+
+FT_ERR0R = 错误
+FT_INVALID = 非法文件名
+
+POP_PACK = 压缩文件
+POP_OPERATION_OK = 操作完成！
+POP_OPERATION_ERROR = 操作错误！
+
+PROP_NAME = 名称：
+PROP_PATH = 路径：
+PROP_TYPE = 类型：
+PROP_SIZE = 大小：
+PROP_VERSION = 版本：
+PROP_AUTHOR = 作者：
+PROP_COMMENT = 备注：
+PROP_FOLDER = 文件夹
+PROP_CREATE_TIME = 创建时间：
+PROP_MOD_TIME = 修改时间：
+PROP_PERM = 权限：
+PROP_FILE = 文件
+PROP_SYMLINK = 链接
+
+POP_OK_TITLE = OK
+POP_OK_TEXT = 操作完成！
+
+FT_CONFIRM_MOVE = 是否确认移动？
+POP_PLEASE_WAIT = 请等待
+
+FT_CONFIRM_COPY = 是否确认复制：
+
+FT_PLEASCHOOSE = 请选择
+FT_CREATE_FILE = 新建文件
+FT_CREATE_DIR = 新建文件夹
+FT_INPUT_NAME = 输入文件名
+POP_FILE_EXISTS = 文件存在！
+FT_CANNOT_CREAT = 无法新建文件/文件夹！
+FT_MANY_FILES_SLOW = 文件太多速度会比较慢
+FT_SEARCH = 搜索
+FT_MANAGER = 管理
+FT_OPENWITH_PROP = 打开方式命令
+FT_OPENWITH_INFO = 是否以下列方式打开当前文件？
+
+POP_DONATE = 受限功能
+POP_THIS_FUNCTION_NEED_DONATE = 此功能为受限功能，只有捐助用户方可使用
+
+POP_SET_PERMISSION = 设置权限
+FT_SET_TYPE = 设置类型
+FT_PER_EZX = ezx
+FT_PER_ROOT = root
+FT_SIMPLE = 简易
+FT_ULTIMATE = 全能
+
+FT_REGTYPE = 注册类型
