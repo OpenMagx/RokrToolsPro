@@ -24,99 +24,99 @@
 #include "source.h"
 
 
-class SettingDlg: public MyBaseDlg 
+class SettingDlg: public MyBaseDlg
 {
     Q_OBJECT
 
 public :
 
     SettingDlg();
-    ~SettingDlg();	
-	bool isCancel;
-	bool isFullScreenMode;
+    ~SettingDlg();
+    bool isCancel;
+    bool isFullScreenMode;
 
-	//void paintEvent( QPaintEvent * pe);
+    //void paintEvent( QPaintEvent * pe);
 protected:
     void buildTab0();
-	void buildTab1();
-	void buildTab2();
-	void buildTab3();
-	void buildTab4();
-	void timerEvent(QTimerEvent *e);
-	
+    void buildTab1();
+    void buildTab2();
+    void buildTab3();
+    void buildTab4();
+    void timerEvent(QTimerEvent *e);
+
     void getLngList();
-	void setOcList();
-	
-private slots: 
+    void setOcList();
+
+private slots:
     void accept();
     void reject();
-	void buttonClicked();
-	void slotMkey(int index);
-	
-	//void drawAbout(QPainter & p);
-	
+    void buttonClicked();
+    void slotMkey(int index);
+
+    //void drawAbout(QPainter & p);
+
 private :
-	ZNavTabWidget *tabWidget;
-	ZFormContainer *form0;	
-	//ZListBox *listBox0; 
-	ZFormContainer *form1;	
-	ZFormContainer *form2;	
-	ZFormContainer *form3;	
-	ZFormContainer *form4;	
-	
-	ZLabel *tab2Label;
-	ZLabel *tab3Label;
-	ZLabel *tab4Label;
-	//ZLabel *tab3Label;
-	//QVBoxLayout *form3;
-	
-	// Global
- 	ZCheckBox *refreshWhenTabChg;
-	ZCheckBox *cKeyToKill;
-	ZCheckBox *shortMKeyToOpen;  
-	ZCheckBox *fullScreenStatus;  
-	ZCheckBox *timeHeader;  
-	ZCheckBox *hideAfterRunApp;  
-	
-   	// task
+    ZNavTabWidget *tabWidget;
+    ZFormContainer *form0;
+    //ZListBox *listBox0;
+    ZFormContainer *form1;
+    ZFormContainer *form2;
+    ZFormContainer *form3;
+    ZFormContainer *form4;
+
+    ZLabel *tab2Label;
+    ZLabel *tab3Label;
+    ZLabel *tab4Label;
+    //ZLabel *tab3Label;
+    //QVBoxLayout *form3;
+
+    // Global
+    ZCheckBox *refreshWhenTabChg;
+    ZCheckBox *cKeyToKill;
+    ZCheckBox *shortMKeyToOpen;
+    ZCheckBox *fullScreenStatus;
+    ZCheckBox *timeHeader;
+    ZCheckBox *hideAfterRunApp;
+
+    // task
     ZCheckBox *procFilter;
-	ZCheckBox *showNativeIcon;
-	ZCheckBox *showJavaIcon;
-	ZCheckBox *showJavaName;
-	ZCheckBox *sendReturnToIdle;
-	ZCheckBox *showNativeMgxInfo;
-	#ifndef NEW_JAVA_LIST
-	ZCheckBox *markItem;
-	#endif
-	
-	// app
-	//bool cfg_showFavBigIcon;
-	ZCheckBox *showMgxBigIcon;
-	ZCheckBox *showMpkgBigIcon;
-	#ifndef NEW_JAVA_LIST
-	ZCheckBox *runJavaInMult;
-	#endif
-	
-	//fm
-	ZCheckBox *clearBufEveryMultModeInCut;
-	ZCheckBox *clearBufEveryMultModeInCopy;	
-	ZCheckBox *showHideObj;	
-	ZCheckBox *showMimeType;
-	ZCheckBox *showMultiWindow;
-	
-	ZComboBox *lngcb;
-	ZComboBox *regcb;
-	ZComboBox *occb;
-	ZComboBox *mKeycb;
-	
-	//ZLineEdit *lineedit;	
-	
-	ZPressButton *button;
-	
-	QString imei;
-	QString imsi;
-	QString regCode;
-	
+    ZCheckBox *showNativeIcon;
+    ZCheckBox *showJavaIcon;
+    ZCheckBox *showJavaName;
+    ZCheckBox *sendReturnToIdle;
+    ZCheckBox *showNativeMgxInfo;
+#ifndef NEW_JAVA_LIST
+    ZCheckBox *markItem;
+#endif
+
+    // app
+    //bool cfg_showFavBigIcon;
+    ZCheckBox *showMgxBigIcon;
+    ZCheckBox *showMpkgBigIcon;
+#ifndef NEW_JAVA_LIST
+    ZCheckBox *runJavaInMult;
+#endif
+
+    //fm
+    ZCheckBox *clearBufEveryMultModeInCut;
+    ZCheckBox *clearBufEveryMultModeInCopy;
+    ZCheckBox *showHideObj;
+    ZCheckBox *showMimeType;
+    ZCheckBox *showMultiWindow;
+
+    ZComboBox *lngcb;
+    ZComboBox *regcb;
+    ZComboBox *occb;
+    ZComboBox *mKeycb;
+
+    //ZLineEdit *lineedit;
+
+    ZPressButton *button;
+
+    QString imei;
+    QString imsi;
+    QString regCode;
+
 };
 
 #endif // SETTINGDLG_H

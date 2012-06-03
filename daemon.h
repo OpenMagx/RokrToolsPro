@@ -18,22 +18,22 @@
 class Daemon : public QObject,public QThread
 {
     Q_OBJECT
-	
+
 public:
-	Daemon(QObject *parent = 0);
-	~Daemon();
+    Daemon(QObject *parent = 0);
+    ~Daemon();
 protected:
-	void run();
+    void run();
 private:
-	int keycount;
-	int keycode;
-	int status;	
-	bool isDoHold;
-	QTimer *timer;
+    int keycount;
+    int keycode;
+    int status;
+    bool isDoHold;
+    QTimer *timer;
 
 private slots:
-	void slotChannel(const QCString &msg,const QByteArray &data);
-	void slotUpdateTimer();
+    void slotChannel(const QCString &msg,const QByteArray &data);
+    void slotUpdateTimer();
 
 };
 

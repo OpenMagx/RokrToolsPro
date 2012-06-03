@@ -1,7 +1,7 @@
 //
 // C++ Implementation: BaseDlg
 //
-// Description: 
+// Description:
 //
 //
 // Author: root <root@andLinux>, (C) 2008
@@ -14,9 +14,9 @@
 #include <ZSoftKey.h>
 
 MyBaseDlg::MyBaseDlg()
-  :ZKbMainWidget( ZHeader::MAINDISPLAY_HEADER, NULL, "ZMainWidget", WType_Modal | WType_TopLevel )
+    :ZKbMainWidget( ZHeader::MAINDISPLAY_HEADER, NULL, "ZMainWidget", WType_Modal | WType_TopLevel )
 {
-  myInLoop = false;
+    myInLoop = false;
 
 }
 
@@ -26,28 +26,28 @@ MyBaseDlg::~MyBaseDlg()
 }
 
 int MyBaseDlg::exec() {
-  setResult(0);
-  show();
-  myInLoop = TRUE;
-  qApp->enter_loop();
-  return result();
+    setResult(0);
+    show();
+    myInLoop = TRUE;
+    qApp->enter_loop();
+    return result();
 }
 
 void MyBaseDlg::done( int r )
 {
-  hide();
-  if (myInLoop) {
-    qApp->exit_loop();
-  }
-  setResult(r);
-  if ( qApp->mainWidget() == this )
-    qApp->quit();
+    hide();
+    if (myInLoop) {
+        qApp->exit_loop();
+    }
+    setResult(r);
+    if ( qApp->mainWidget() == this )
+        qApp->quit();
 }
 
 void MyBaseDlg::accept() {
-  done(Accepted);
+    done(Accepted);
 }
 
 void MyBaseDlg::reject() {
-  done(Rejected);
+    done(Rejected);
 }

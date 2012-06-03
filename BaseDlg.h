@@ -1,7 +1,7 @@
 //
 // C++ Interface: BaseDlg
 //
-// Description: 
+// Description:
 //
 //
 // Author: root <root@andLinux>, (C) 2008
@@ -15,27 +15,31 @@
 #include <ZKbMainWidget.h>
 
 class MyBaseDlg : public ZKbMainWidget {
-  Q_OBJECT
+    Q_OBJECT
 
-  public:
-    MyBaseDlg(); 
+public:
+    MyBaseDlg();
     ~MyBaseDlg();
-    
+
     int exec();
-    int result() const { return rescode; }
-    
-  public slots:
+    int result() const {
+        return rescode;
+    }
+
+public slots:
     virtual void done(int);
     virtual void accept();
     virtual void reject();
-        
-  private:
+
+private:
     bool myInLoop;
     int rescode;
-        
-  protected:
+
+protected:
     enum DialogCode { Rejected, Accepted };
-    void setResult(int r) { rescode = r; }    
+    void setResult(int r) {
+        rescode = r;
+    }
 };
 
 #endif

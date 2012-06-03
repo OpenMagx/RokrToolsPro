@@ -21,138 +21,138 @@
 class stateThread : public QThread
 {
 public :
-	stateThread();
-	~stateThread();
-	
-	void initState();
-	
-	QString cpuFrec;
-	QString cpuPerc;
-	
-	QString memTotal;
-	QString memFree;
-	QString memBuffers;
-	QString memCached;
-	QString swapTotal;
-	QString swapFree;
-	
+    stateThread();
+    ~stateThread();
+
+    void initState();
+
+    QString cpuFrec;
+    QString cpuPerc;
+
+    QString memTotal;
+    QString memFree;
+    QString memBuffers;
+    QString memCached;
+    QString swapTotal;
+    QString swapFree;
+
 protected:
-	virtual void run();
-	
+    virtual void run();
+
 private :
-	void initCpuInfo();
-	void initMemInfo();
-	
-	int oldBusy, oldWork;	
+    void initCpuInfo();
+    void initMemInfo();
+
+    int oldBusy, oldWork;
 };
 
-class stateDlg : public MyBaseDlg 
+class stateDlg : public MyBaseDlg
 {
 
-	Q_OBJECT
+    Q_OBJECT
 
 public:
-	stateDlg();
-	~stateDlg();
-  	
+    stateDlg();
+    ~stateDlg();
+
 public slots:
 //	void setCPU();
 //	void setMEM();
 //	void refresh();
-	
-protected slots:	
-	void slotTimerEvent();
-	void slotTimerEvent2();
+
+protected slots:
+    void slotTimerEvent();
+    void slotTimerEvent2();
 
 //	virtual void timerEvent(QTimerEvent *e);
 //	{
-		//refresh();
+    //refresh();
 //			thread->initState();
-	//slotPaint();
+    //slotPaint();
 //	update();
 //		ZKbMainWidget::timerEvent(e);
 //	}
 protected:
-	void paintEvent( QPaintEvent *);
-	bool  eventFilter( QObject *, QEvent * );  
-	
-private:	
-	stateThread *thread;
-	
-	//ZImage *img;
+    void paintEvent( QPaintEvent *);
+    bool  eventFilter( QObject *, QEvent * );
+
+private:
+    stateThread *thread;
+
+    //ZImage *img;
 //	QImage img;
 //	QString cpuF;
 //	QString cpuP;
 //	ZLabel *sepLabel;
 //	ZLabel *sepLabel2;
-	
+
 ///	ZLabel *cpuLabel;
 //	ZLabel *cpuLabel2;
-	
+
 //	ZLabel *memLabel;//[6];
-	/*ZLabel *memLabel2;	
-	ZLabel *memLabel3;	
-	ZLabel *memLabel4;	
-	ZLabel *memLabel5;	
-	ZLabel *memLabel6;	*/
-	QPixmap *pixmap;
-	QTimer *timer;
-	QTimer *timer2;
-	
+    /*ZLabel *memLabel2;
+    ZLabel *memLabel3;
+    ZLabel *memLabel4;
+    ZLabel *memLabel5;
+    ZLabel *memLabel6;	*/
+    QPixmap *pixmap;
+    QTimer *timer;
+    QTimer *timer2;
+
 //	ZScrollPanel *zsp;
-	//ZFormContainer *form;
+    //ZFormContainer *form;
 
 //	ZSoftKey *softkey;
-	QString cpuinfo;
+    QString cpuinfo;
 
-	int oldBusy, oldWork;
-	
+    int oldBusy, oldWork;
+
 };
 
 /**********************************************************************************/
 /**********************************************************************************/
 
-class procInfoDlg : public MyBaseDlg 
+class procInfoDlg : public MyBaseDlg
 {
     Q_OBJECT
-	
+
 public:
     procInfoDlg(int pid);
-	~procInfoDlg();
-	void buildLibList();
-	void buildInfo();
-	void timerEvent(QTimerEvent *e);
-	//void setProcPid(int procPid);
+    ~procInfoDlg();
+    void buildLibList();
+    void buildInfo();
+    void timerEvent(QTimerEvent *e);
+    //void setProcPid(int procPid);
 
 protected:
-	bool  eventFilter( QObject *, QEvent * );    
-	
+    bool  eventFilter( QObject *, QEvent * );
+
 public slots:
-	//void exit();
-	
+    //void exit();
+
 private:
-	//ZScrollPanel *zsp;
-	//ZLabel *lb;	
-	//ZSoftKey *softKey;
-	//RES_ICON_Reader iconReader;
-	//ZScrollPanel *zsp;	
-	ZNavTabWidget *tabWidget;
-	ZFormContainer *infoForm;
-	ZListBox *libBox;
-	ZLabel * myLabel;
-	
-	//QString mInfoText;
-	QString procName;
-	QString procCmd;
-	QString VmSize;
-	QString VmRSS;
-	QString procState;
-	QString procThreads;
-	QString uid;
-	
-	int procPid;
-	//int pid;
-	//QString procText;
+    //ZScrollPanel *zsp;
+    //ZLabel *lb;
+    //ZSoftKey *softKey;
+    //RES_ICON_Reader iconReader;
+    //ZScrollPanel *zsp;
+    ZNavTabWidget *tabWidget;
+    ZFormContainer *infoForm;
+    ZListBox *libBox;
+    ZLabel * myLabel;
+
+    //QString mInfoText;
+    QString procName;
+    QString procCmd;
+    QString VmSize;
+    QString VmRSS;
+    QString procState;
+    QString procThreads;
+    QString uid;
+
+    int procPid;
+    //int pid;
+    //QString procText;
 };
 
 
