@@ -72,8 +72,9 @@ void FileBrowser::setDir(QString &pdir, ITEMMODE mode)//, const QString &sFilter
     this->clear();
 
     QDir dir(pdir);
+#ifndef ZN5
     dir.setMatchAllDirs (true);
-
+#endif
     if ( !dir.isReadable() ) {
         return;
     }

@@ -1,5 +1,7 @@
 #ifndef INFO_H
 #define INFO_H
+
+#define QT_THREAD_SUPPORT
 #include <ZKbMainWidget.h>
 #include <ZLabel.h>
 #include <ZScrollPanel.h>
